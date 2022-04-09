@@ -21,7 +21,7 @@ npx hardhat help
 - ```npx hardhat compile```
 - ```npx hardhat run scripts/yourscriptname.js --network ganache```
 
-## How to interacting locally
+## How to interact locally with console and see changes
 - Clone the apps
 - npm install 
 - ```npx hardhat compile```
