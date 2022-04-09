@@ -14,3 +14,19 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 # hardhat-ganache-console-practice
+
+## How to start
+- Clone the apps
+- npm install 
+- ```npx hardhat compile```
+- ```npx hardhat run scripts/yourscriptname.js --network ganache```
+
+## How to interacting locally
+- Clone the apps
+- npm install 
+- ```npx hardhat compile```
+- ```npx hardhat console --network ganache```
+- ```const Greeter = await hre.ethers.getContractFactory("Greeter")```
+- ```greeter = await Greeter.deploy("Hello, Hardhat!")```
+- ```await greeter.greet()```
+- ```await greeter.setGreeting('Hi,Piash!')```
